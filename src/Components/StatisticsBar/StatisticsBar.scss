@@ -1,0 +1,29 @@
+@import '../../styles/shared.scss';
+
+.mark_title {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  color: $title;
+}
+.assessment_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.assessment_item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid deepskyblue;
+  border-radius: 4px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.mark {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  color: $title-gradient-bottom;
+}

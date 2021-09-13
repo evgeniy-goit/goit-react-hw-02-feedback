@@ -1,0 +1,19 @@
+@import '../../styles/shared.scss';
+
+.title {
+  font-size: 26px;
+  font-weight: normal;
+  // color: $title;
+  background: -webkit-linear-gradient($title, $title-gradient-bottom);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 5px 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section {
+  padding: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,23 @@
+@import '../../styles/shared.scss';
+
+.button {
+  display: inline-flex;
+  margin: 0 4px;
+  padding: 4px 12px;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: $button-border;
+  cursor: pointer;
+  transition: background-color 250ms $timing-function 0ms;
+}
+.button:hover,
+.button:focus {
+  background-color: $button-active;
+}
+.active {
+  background-color: $button-active;
+}
+.controls {
+  padding: 15px 40px;
+}
